@@ -175,7 +175,7 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
 
 <!-- ══ 1. IDENTIFICAÇÃO ═══════════════════════════════════════ -->
 <div class="section" id="s0">
-  <div class="section-header sh-green" ontouchend="sectionTouch(event,'s0')" onclick="toggleSection('s0')">
+  <div class="section-header sh-green">
     <div class="s-icon">📋</div>
     <div class="s-tw"><div class="s-title">Identificação do Projeto</div><div class="s-sub">Dados básicos antes de qualquer ação</div></div>
     <span class="s-badge" id="badge-s0">0/?</span><span class="chevron">▾</span>
@@ -197,19 +197,19 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
       </div>
     </div>
     <div style="height:8px"></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Projeto de engenharia recebido com traçado em KMZ/shapefile <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar se o arquivo está georreferenciado em SIRGAS 2000 antes de qualquer análise</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">ADA delimitada e área de supressão calculada em hectares <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Faixa de servidão do projeto = ADA do inventário (10 m para RDR padrão – 5 m de cada lado do eixo da rede)</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Análise prévia de imagens de satélite realizada (Google Earth / MapBiomas)</div><div class="item-detail">Classificar fitofisionomia, identificar fragmentos e árvores isoladas, estimar número de parcelas, mapear acessos existentes</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Sobreposições com APP, RL, UC e TI verificadas no QGIS</div><div class="item-detail">Usar camadas oficiais: IBGE, MapBiomas, FUNAI, MMA/CNUC, CAR. Documentar cada sobreposição identificada com nome e extensão</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tipo de inventário definido (amostral ou censo 100%) <span class="tag tag-leg">IN IBAMA 06/2009</span></div><div class="item-detail">Censo obrigatório para: árvores isoladas, UC Federal e Terra Indígena. Amostral para fragmentos nativos com cálculo de n mínimo prévio</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Número de parcelas calculado estatisticamente (erro máx. 20% a 95% prob.)</div><div class="item-detail">Mínimo operacional: 3 parcelas mesmo que o cálculo indique menos. Definir distribuição espacial e forma das parcelas antes de sair</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Croqui de distribuição das parcelas elaborado e disponível para a equipe</div><div class="item-detail">Indicar localização de cada parcela em relação ao eixo do traçado; orientar toda a equipe antes da saída</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Projeto de engenharia recebido com traçado em KMZ/shapefile <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar se o arquivo está georreferenciado em SIRGAS 2000 antes de qualquer análise</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">ADA delimitada e área de supressão calculada em hectares <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Faixa de servidão do projeto = ADA do inventário (10 m para RDR padrão – 5 m de cada lado do eixo da rede)</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Análise prévia de imagens de satélite realizada (Google Earth / MapBiomas)</div><div class="item-detail">Classificar fitofisionomia, identificar fragmentos e árvores isoladas, estimar número de parcelas, mapear acessos existentes</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Sobreposições com APP, RL, UC e TI verificadas no QGIS</div><div class="item-detail">Usar camadas oficiais: IBGE, MapBiomas, FUNAI, MMA/CNUC, CAR. Documentar cada sobreposição identificada com nome e extensão</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tipo de inventário definido (amostral ou censo 100%) <span class="tag tag-leg">IN IBAMA 06/2009</span></div><div class="item-detail">Censo obrigatório para: árvores isoladas, UC Federal e Terra Indígena. Amostral para fragmentos nativos com cálculo de n mínimo prévio</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Número de parcelas calculado estatisticamente (erro máx. 20% a 95% prob.)</div><div class="item-detail">Mínimo operacional: 3 parcelas mesmo que o cálculo indique menos. Definir distribuição espacial e forma das parcelas antes de sair</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Croqui de distribuição das parcelas elaborado e disponível para a equipe</div><div class="item-detail">Indicar localização de cada parcela em relação ao eixo do traçado; orientar toda a equipe antes da saída</div></div></div>
   </div>
 </div>
 
 <!-- ══ 2. HABILITAÇÕES E CADASTROS ════════════════════════════ -->
 <div class="section collapsed" id="s1">
-  <div class="section-header sh-teal" ontouchend="sectionTouch(event,'s1')" onclick="toggleSection('s1')">
+  <div class="section-header sh-teal">
     <div class="s-icon">&#128203;</div>
     <div class="s-tw"><div class="s-title">Habilitações e Cadastros do RT</div><div class="s-sub">Registros obrigatorios antes de iniciar o inventário</div></div>
     <span class="s-badge" id="badge-s1">0/?</span><span class="chevron">▾</span>
@@ -217,25 +217,25 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
   <div class="section-body">
     <div class="alert-box warn"><strong>Atencao:</strong> O SINAFLOR bloqueia o processo se o cadastro do RT estiver vencido. Verificar tudo com antecedência, não na véspera do campo.</div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Cadastro no SINAFLOR ativo como Responsável Técnico <span class="tag tag-ob">obrigatorio</span> <span class="tag tag-leg">IN 21/2014</span></div><div class="item-detail">Acessar sinaflor.ibama.gov.br e verificar credencial de RT ativa e vinculada ao processo do projeto</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">CTF/IBAMA ativo para todos os profissionais envolvidos <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Cadastro Técnico Federal de Atividades de Defesa Ambiental – verificar validade no sistema do IBAMA para cada membro da equipe técnica</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Cadastro no SINAFLOR ativo como Responsável Técnico <span class="tag tag-ob">obrigatorio</span> <span class="tag tag-leg">IN 21/2014</span></div><div class="item-detail">Acessar sinaflor.ibama.gov.br e verificar credencial de RT ativa e vinculada ao processo do projeto</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">CTF/IBAMA ativo para todos os profissionais envolvidos <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Cadastro Técnico Federal de Atividades de Defesa Ambiental – verificar validade no sistema do IBAMA para cada membro da equipe técnica</div></div></div>
 
-    <div class="item" data-estado="AP" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">CTDAM – Amapá (SEMA-AP) ativo <span class="tag tag-ap">AP</span></div><div class="item-detail">Cadastro Técnico de Atividades de Defesa Ambiental junto à SEMA-AP. Verificar validade antes de protocolar qualquer processo</div></div></div>
+    <div class="item" data-estado="AP"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">CTDAM – Amapá (SEMA-AP) ativo <span class="tag tag-ap">AP</span></div><div class="item-detail">Cadastro Técnico de Atividades de Defesa Ambiental junto à SEMA-AP. Verificar validade antes de protocolar qualquer processo</div></div></div>
 
-    <div class="item" data-estado="PA" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">CTDAM – Pará (SEMAS-PA) ativo <span class="tag tag-pa">PA</span></div><div class="item-detail">Cadastro Técnico junto à SEMAS-PA – verificar validade antes do campo e da elaboração do relatório</div></div></div>
+    <div class="item" data-estado="PA"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">CTDAM – Pará (SEMAS-PA) ativo <span class="tag tag-pa">PA</span></div><div class="item-detail">Cadastro Técnico junto à SEMAS-PA – verificar validade antes do campo e da elaboração do relatório</div></div></div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">ART do RT emitida e assinada digitalmente (gov.br) para este inventário <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">ART do ano vigente. Objeto da ART: "Inventário Florestal para Autorização de Supressão de Vegetação – Projeto [ID EQTL]". Assinatura digital pelo gov.br obrigatória</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Empreendimento cadastrado no SINAFLOR com dados do projeto <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Inserir: ID do projeto, município, coordenadas da ADA, RT vinculado, fitofisionomia, destinação do material lenhoso. Fazer antes de sair para campo</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">ART do RT emitida e assinada digitalmente (gov.br) para este inventário <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">ART do ano vigente. Objeto da ART: "Inventário Florestal para Autorização de Supressão de Vegetação – Projeto [ID EQTL]". Assinatura digital pelo gov.br obrigatória</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Empreendimento cadastrado no SINAFLOR com dados do projeto <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Inserir: ID do projeto, município, coordenadas da ADA, RT vinculado, fitofisionomia, destinação do material lenhoso. Fazer antes de sair para campo</div></div></div>
 
-    <div class="item" data-estado="AP" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Verificar necessidade de anuência prévia do IBAMA – vegetação primária ou avançada <span class="tag tag-ap">AP</span> <span class="tag tag-leg">IN 09/2019</span></div><div class="item-detail">Se a vegetação for primária ou secundária em estágio médio/avançado: protocolar pedido de anuência no IBAMA antes de iniciar o inventário</div></div></div>
+    <div class="item" data-estado="AP"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Verificar necessidade de anuência prévia do IBAMA – vegetação primária ou avançada <span class="tag tag-ap">AP</span> <span class="tag tag-leg">IN 09/2019</span></div><div class="item-detail">Se a vegetação for primária ou secundária em estágio médio/avançado: protocolar pedido de anuência no IBAMA antes de iniciar o inventário</div></div></div>
 
-    <div class="item" data-estado="PA" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Verificar necessidade de anuência prévia do IBAMA – vegetação primária ou avançada <span class="tag tag-pa">PA</span> <span class="tag tag-leg">IN SEMAS 06/2019</span></div><div class="item-detail">SEMAS-PA exige anuência do IBAMA (IN 09/2019) para vegetação primária ou secundária estágio médio/avançado antes de emitir a ASV</div></div></div>
+    <div class="item" data-estado="PA"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Verificar necessidade de anuência prévia do IBAMA – vegetação primária ou avançada <span class="tag tag-pa">PA</span> <span class="tag tag-leg">IN SEMAS 06/2019</span></div><div class="item-detail">SEMAS-PA exige anuência do IBAMA (IN 09/2019) para vegetação primária ou secundária estágio médio/avançado antes de emitir a ASV</div></div></div>
   </div>
 </div>
 
 <!-- ══ 3. AUTORIZAÇÕES DE ACESSO ══════════════════════════════ -->
 <div class="section collapsed" id="s2">
-  <div class="section-header sh-blue" ontouchend="sectionTouch(event,'s2')" onclick="toggleSection('s2')">
+  <div class="section-header sh-blue">
     <div class="s-icon">&#128273;</div>
     <div class="s-tw"><div class="s-title">Autorizacoes de Acesso</div><div class="s-sub">Documentos para entrada legal na área</div></div>
     <span class="s-badge" id="badge-s2">0/?</span><span class="chevron">▾</span>
@@ -243,23 +243,23 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
   <div class="section-body">
     <div class="alert-box warn"><strong>Regra fundamental:</strong> Sem autorização de acesso à UC, a equipe não entra na área. A Carta de Servico nº 167 da SEMA-AP é explícita: qualquer entrada de empresa em UC estadual do AP exige autorização prévia da CGUCBio, independente da finalidade.</div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização de passagem em terreno de terceiros obtida e assinada <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Assinatura do proprietário ou possuidor de cada imóvel no traçado. Documento arquivado fisicamente no processo</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização de passagem em terreno de terceiros obtida e assinada <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Assinatura do proprietário ou possuidor de cada imóvel no traçado. Documento arquivado fisicamente no processo</div></div></div>
 
-    <div class="item" data-estado="AP" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização de acesso à UC estadual – CGUCBio/SEMA-AP obtida <span class="tag tag-ap">AP</span> <span class="tag tag-ob">obrigatorio se UC</span></div><div class="item-detail">Aplicável: FLOTA do Amapá, APA do Rio Curiaú, APA da Fazendinha, RDS do Rio Iratapuru, REBIO do Parazinho. Protocolar com mínimo 15 dias de antecedência. Contato: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1f7c786a7c7d76705f6c7a727e317e6f31787069317d6d">[email&#160;protected]</a></div></div></div>
+    <div class="item" data-estado="AP"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização de acesso à UC estadual – CGUCBio/SEMA-AP obtida <span class="tag tag-ap">AP</span> <span class="tag tag-ob">obrigatorio se UC</span></div><div class="item-detail">Aplicável: FLOTA do Amapá, APA do Rio Curiaú, APA da Fazendinha, RDS do Rio Iratapuru, REBIO do Parazinho. Protocolar com mínimo 15 dias de antecedência. Contato: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1f7c786a7c7d76705f6c7a727e317e6f31787069317d6d">[email&#160;protected]</a></div></div></div>
 
-    <div class="item" data-estado="AP" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Zoneamento do plano de manejo da UC verificado (AP) <span class="tag tag-ap">AP</span></div><div class="item-detail">Confirmar que a zona interceptada pelo traçado permite intervenção/supressão antes de protocolar qualquer pedido de ASV ou autorização</div></div></div>
+    <div class="item" data-estado="AP"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Zoneamento do plano de manejo da UC verificado (AP) <span class="tag tag-ap">AP</span></div><div class="item-detail">Confirmar que a zona interceptada pelo traçado permite intervenção/supressão antes de protocolar qualquer pedido de ASV ou autorização</div></div></div>
 
-    <div class="item" data-estado="PA" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Licenciamento ordinário junto à SEMAS-PA verificado se UC estadual (exceto APA) <span class="tag tag-pa">PA</span> <span class="tag tag-leg">IN SEMAS 06/2019</span></div><div class="item-detail">RDR em FLOTA estadual PA, RDS, RESEX estadual: licenciamento ordinário obrigatório, sem rito simplificado possível</div></div></div>
+    <div class="item" data-estado="PA"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Licenciamento ordinário junto à SEMAS-PA verificado se UC estadual (exceto APA) <span class="tag tag-pa">PA</span> <span class="tag tag-leg">IN SEMAS 06/2019</span></div><div class="item-detail">RDR em FLOTA estadual PA, RDS, RESEX estadual: licenciamento ordinário obrigatório, sem rito simplificado possível</div></div></div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização do ICMBio se UC Federal (PARNA, RESEX, FLONA federal)</div><div class="item-detail">Protocolar junto à sede da UC federal. Apresentar: cronograma, equipe, metodologia, shapefile e KMZ da área</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização da FUNAI e ICMBio se Terra Indígena <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Entrada sem autorização em TI é crime. Contato prévio com lideranças obrigatório antes de qualquer deslocamento para a área</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Anuência das lideranças quilombolas se território quilombola</div><div class="item-detail">Contato prévio com a associação de moradores. Verificar certificação da FCP/INCRA. Consulta prévia exigida pela Convenção 169 da OIT</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização do ICMBio se UC Federal (PARNA, RESEX, FLONA federal)</div><div class="item-detail">Protocolar junto à sede da UC federal. Apresentar: cronograma, equipe, metodologia, shapefile e KMZ da área</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Autorização da FUNAI e ICMBio se Terra Indígena <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Entrada sem autorização em TI é crime. Contato prévio com lideranças obrigatório antes de qualquer deslocamento para a área</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Anuência das lideranças quilombolas se território quilombola</div><div class="item-detail">Contato prévio com a associação de moradores. Verificar certificação da FCP/INCRA. Consulta prévia exigida pela Convenção 169 da OIT</div></div></div>
   </div>
 </div>
 
 <!-- ══ 4. DOCUMENTAÇÃO TÉCNICA ════════════════════════════════ -->
 <div class="section collapsed" id="s3">
-  <div class="section-header sh-orange" ontouchend="sectionTouch(event,'s3')" onclick="toggleSection('s3')">
+  <div class="section-header sh-orange">
     <div class="s-icon">&#128196;</div>
     <div class="s-tw"><div class="s-title">Documentacao Técnica de Campo</div><div class="s-sub">Formulários, listas e arquivos para levar</div></div>
     <span class="s-badge" id="badge-s3">0/?</span><span class="chevron">▾</span>
@@ -267,21 +267,21 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
   <div class="section-body">
     <div class="alert-box verde"><strong>Tablet:</strong> O formulário offline do Banco de Flora é o principal instrumento de coleta. O formulário impresso é o backup obrigatório. Ambos devem estar prontos antes de sair.</div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Formulário offline do Banco de Flora instalado e testado no tablet <span class="tag tag-tec">tablet</span> <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar: abre sem internet, permite preenchimento completo, salva o registro, sincroniza quando houver conexão. Preencher um registro de teste e apagar antes de ir a campo</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Formulário de planilha de campo impresso como backup (papel impermeável ou plástico)</div><div class="item-detail">Cabeçalho: nº parcela, data, município, coordenadas GPS, fitofisionomia, RT. Corpo: nº indivíduo, nome popular, nome científico, CAP, DAP, Ht, Hc, observações. Levar o dobro do necessário</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">KMZ/shapefile da ADA carregado no GPS e no tablet</div><div class="item-detail">Traçado da rede + polígono da ADA + pontos das parcelas pré-definidas. Verificar datum SIRGAS 2000 em ambos os dispositivos</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Croqui de distribuição das parcelas disponível no tablet ou impresso</div><div class="item-detail">Orientar toda a equipe antes da saída. Cada membro deve saber onde ficam as parcelas em relação ao traçado</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Guia de identificação botânica regional disponível no tablet ou impresso</div><div class="item-detail">Flora da Amazônia aplicável ao AP ou PA. Aplicativos de apoio: PlantNet, Flora do Brasil. Para espécies duvidosas: coletar material botânico para identificação posterior</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Formulário offline do Banco de Flora instalado e testado no tablet <span class="tag tag-tec">tablet</span> <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar: abre sem internet, permite preenchimento completo, salva o registro, sincroniza quando houver conexão. Preencher um registro de teste e apagar antes de ir a campo</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Formulário de planilha de campo impresso como backup (papel impermeável ou plástico)</div><div class="item-detail">Cabeçalho: nº parcela, data, município, coordenadas GPS, fitofisionomia, RT. Corpo: nº indivíduo, nome popular, nome científico, CAP, DAP, Ht, Hc, observações. Levar o dobro do necessário</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">KMZ/shapefile da ADA carregado no GPS e no tablet</div><div class="item-detail">Traçado da rede + polígono da ADA + pontos das parcelas pré-definidas. Verificar datum SIRGAS 2000 em ambos os dispositivos</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Croqui de distribuição das parcelas disponível no tablet ou impresso</div><div class="item-detail">Orientar toda a equipe antes da saída. Cada membro deve saber onde ficam as parcelas em relação ao traçado</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Guia de identificação botânica regional disponível no tablet ou impresso</div><div class="item-detail">Flora da Amazônia aplicável ao AP ou PA. Aplicativos de apoio: PlantNet, Flora do Brasil. Para espécies duvidosas: coletar material botânico para identificação posterior</div></div></div>
 
-    <div class="item" data-estado="AP" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Lista de espécies ameacadas e protegidas de corte do Amapá disponível <span class="tag tag-ap">AP</span></div><div class="item-detail">Portaria MMA 148/2022 (federal) + lista estadual SEMA-AP. Espécies em destaque: Pau-rosa (Aniba rosaeodora), Castanha-do-Pará (Bertholletia excelsa), Virola surinamensis, Açaí (Euterpe oleracea)</div></div></div>
+    <div class="item" data-estado="AP"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Lista de espécies ameacadas e protegidas de corte do Amapá disponível <span class="tag tag-ap">AP</span></div><div class="item-detail">Portaria MMA 148/2022 (federal) + lista estadual SEMA-AP. Espécies em destaque: Pau-rosa (Aniba rosaeodora), Castanha-do-Pará (Bertholletia excelsa), Virola surinamensis, Açaí (Euterpe oleracea)</div></div></div>
 
-    <div class="item" data-estado="PA" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Lista de espécies ameacadas e protegidas de corte do Pará disponível <span class="tag tag-pa">PA</span></div><div class="item-detail">Portaria MMA 148/2022 (federal) + Resolução COEMA-PA + lista SEMAS-PA. Em destaque: Castanha-do-Pará, Cedro (Cedrela odorata), Mogno (Swietenia macrophylla), Andiroba, Açaí</div></div></div>
+    <div class="item" data-estado="PA"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Lista de espécies ameacadas e protegidas de corte do Pará disponível <span class="tag tag-pa">PA</span></div><div class="item-detail">Portaria MMA 148/2022 (federal) + Resolução COEMA-PA + lista SEMAS-PA. Em destaque: Castanha-do-Pará, Cedro (Cedrela odorata), Mogno (Swietenia macrophylla), Andiroba, Açaí</div></div></div>
   </div>
 </div>
 
 <!-- ══ 5. EQUIPAMENTOS DE MEDIÇÃO ═════════════════════════════ -->
 <div class="section collapsed" id="s4">
-  <div class="section-header sh-purple" ontouchend="sectionTouch(event,'s4')" onclick="toggleSection('s4')">
+  <div class="section-header sh-purple">
     <div class="s-icon">&#128207;</div>
     <div class="s-tw"><div class="s-title">Equipamentos de Medicao</div><div class="s-sub">Instrumentos dendrométricos, tablet e GPS</div></div>
     <span class="s-badge" id="badge-s4">0/?</span><span class="chevron">▾</span>
@@ -290,22 +290,22 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
     <div class="alert-box verde"><strong>Medicao de altura:</strong> Será usada régua graduada adaptada. Definir antes do campo o procedimento para árvores acima do alcance da régua (estimativa visual com referência calibrada). Registrar o método usado no formulário de cada parcela.</div>
     <div class="alert-box info"><strong>Registro fotográfico:</strong> Tablet com Timestamp Camera é o instrumento principal para fotos com coordenadas. GPS externo coleta coordenadas precisas das parcelas e indivíduos. Usar os dois em conjunto.</div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita diamétrica (precisão 0,1 cm) – 2 unidades <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar se nenhuma está amassada ou com folga — qualquer deformação gera erro sistemático em todos os DAPs. Substituir antes de sair</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita métrica de aço 30 m ou 50 m – 2 unidades <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Para demarcação e medição dos lados das parcelas. Verificar ausência de dobras e legibilidade da graduação</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Régua graduada adaptada para medição de altura <span class="tag tag-tec">campo</span></div><div class="item-detail">Testar alcance máximo em campo aberto antes de sair. Definir e alinhar com a equipe o procedimento para árvores acima do alcance. Levar régua reserva se possível</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">GPS externo configurado em SIRGAS 2000, bateria cheia <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar datum no menu de configurações antes de sair. Usar para: coordenadas dos vértices de parcela, árvores isoladas e espécies ameaçadas. Comparar leitura com o tablet para validar precisão</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tablet com app Timestamp Camera instalado, testado e com GPS ativo <span class="tag tag-tec">tablet</span> <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar antes de sair: fotos sendo gravadas com coordenadas GPS, data e hora visíveis na imagem. Ativar localização de alta precisão. Testar em local de referência conhecida e comparar com o GPS</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Precisão do GPS do tablet verificada e compatível com o GPS externo</div><div class="item-detail">Diferença aceitável entre os dois: menos de 10 m. Em floresta densa o tablet pode perder sinal — nesse caso usar exclusivamente o GPS externo para coordenadas</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Powerbank com carga completa para tablet e GPS</div><div class="item-detail">Tablet com GPS e câmera ativos drena bateria em 3–4 horas. Verificar carga do powerbank na noite anterior. Levar cabo USB compatível com o tablet</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Bússola ou aplicativo calibrado para abertura das parcelas</div><div class="item-detail">Para orientar o alinhamento das parcelas em relação ao eixo da rede. Calibrar o aplicativo de bússola antes de sair</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Prancheta de campo com suporte para formulário impresso (backup do tablet)</div><div class="item-detail">Para uso em caso de falha do tablet ou bateria descarregada. Usar clipe impermeável ou saco plástico em dias de chuva</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Lápis (2 por pessoa) e caneta permanente</div><div class="item-detail">Lápis não apaga com chuva; caneta permanente para escrever em superfícies molhadas e marcar plaquetas ou estacas</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita diamétrica (precisão 0,1 cm) – 2 unidades <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar se nenhuma está amassada ou com folga — qualquer deformação gera erro sistemático em todos os DAPs. Substituir antes de sair</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita métrica de aço 30 m ou 50 m – 2 unidades <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Para demarcação e medição dos lados das parcelas. Verificar ausência de dobras e legibilidade da graduação</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Régua graduada adaptada para medição de altura <span class="tag tag-tec">campo</span></div><div class="item-detail">Testar alcance máximo em campo aberto antes de sair. Definir e alinhar com a equipe o procedimento para árvores acima do alcance. Levar régua reserva se possível</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">GPS externo configurado em SIRGAS 2000, bateria cheia <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar datum no menu de configurações antes de sair. Usar para: coordenadas dos vértices de parcela, árvores isoladas e espécies ameaçadas. Comparar leitura com o tablet para validar precisão</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tablet com app Timestamp Camera instalado, testado e com GPS ativo <span class="tag tag-tec">tablet</span> <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">Verificar antes de sair: fotos sendo gravadas com coordenadas GPS, data e hora visíveis na imagem. Ativar localização de alta precisão. Testar em local de referência conhecida e comparar com o GPS</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Precisão do GPS do tablet verificada e compatível com o GPS externo</div><div class="item-detail">Diferença aceitável entre os dois: menos de 10 m. Em floresta densa o tablet pode perder sinal — nesse caso usar exclusivamente o GPS externo para coordenadas</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Powerbank com carga completa para tablet e GPS</div><div class="item-detail">Tablet com GPS e câmera ativos drena bateria em 3–4 horas. Verificar carga do powerbank na noite anterior. Levar cabo USB compatível com o tablet</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Bússola ou aplicativo calibrado para abertura das parcelas</div><div class="item-detail">Para orientar o alinhamento das parcelas em relação ao eixo da rede. Calibrar o aplicativo de bússola antes de sair</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Prancheta de campo com suporte para formulário impresso (backup do tablet)</div><div class="item-detail">Para uso em caso de falha do tablet ou bateria descarregada. Usar clipe impermeável ou saco plástico em dias de chuva</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Lápis (2 por pessoa) e caneta permanente</div><div class="item-detail">Lápis não apaga com chuva; caneta permanente para escrever em superfícies molhadas e marcar plaquetas ou estacas</div></div></div>
   </div>
 </div>
 
 <!-- ══ 6. MATERIAIS DE MARCAÇÃO ═══════════════════════════════ -->
 <div class="section collapsed" id="s5">
-  <div class="section-header sh-red" ontouchend="sectionTouch(event,'s5')" onclick="toggleSection('s5')">
+  <div class="section-header sh-red">
     <div class="s-icon">&#127912;</div>
     <div class="s-tw"><div class="s-title">Materiais de Marcacao das Parcelas</div><div class="s-sub">Tinta spray – vértices e numeracao dos indivíduos</div></div>
     <span class="s-badge" id="badge-s5">0/?</span><span class="chevron">▾</span>
@@ -313,19 +313,19 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
   <div class="section-body">
     <div class="alert-box info"><strong>Tinta spray:</strong> Calcular 1 lata de 400 ml por dia de campo (aprox. 5 parcelas com 20–30 indivíduos). Agitar por 2 minutos e testar a válvula em papel antes de entrar na floresta — válvulas entopem com frequência em ambientes úmidos.</div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tinta spray laranja fluorescente – marcacao dos vértices <span class="tag tag-tec">campo</span></div><div class="item-detail">Pintar faixa horizontal no fuste da árvore mais próxima de cada vértice + número da parcela (P01, P02...) acima da faixa. Alta visibilidade na floresta</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tinta spray amarela – numeracao dos indivíduos no DAP</div><div class="item-detail">Pintar número do indivíduo no fuste a 1,30 m do solo, no lado voltado para o interior da parcela. Bom contraste em cascas escuras</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tinta spray vermelha – espécies ameacadas ou protegidas de corte</div><div class="item-detail">Marcação especial para facilitar identificação em campo e em eventual vistoria do órgão ambiental. NAO aplicar em cascas sensiveis — usar plaqueta com arame frouxo nesses casos</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Quantidade de tinta verificada e suficiente para todo o projeto</div><div class="item-detail">Calcular: 1 lata laranja + 1 lata amarela + 1 lata vermelha por dia de campo. Levar 20% a mais de reserva</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Válvulas de todas as latas testadas (pressão, fluxo, cor)</div><div class="item-detail">Testar cada lata em papel antes de entrar na floresta. Substituir latas com válvula com defeito — não há conserto em campo remoto</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Estacas de madeira ou PVC para vértices sem árvore próxima disponível</div><div class="item-detail">Para vértices em capoeira baixa, bordas abertas ou áreas sem cobertura arbórea. Levar martelo para cravação</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita de rafia colorida para delimitar os limites da parcela durante a medicao</div><div class="item-detail">Amarrar nos quatro vértices durante a medição; facilita visualmente o controle de quais indivíduos estão dentro ou fora da parcela</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tinta spray laranja fluorescente – marcacao dos vértices <span class="tag tag-tec">campo</span></div><div class="item-detail">Pintar faixa horizontal no fuste da árvore mais próxima de cada vértice + número da parcela (P01, P02...) acima da faixa. Alta visibilidade na floresta</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tinta spray amarela – numeracao dos indivíduos no DAP</div><div class="item-detail">Pintar número do indivíduo no fuste a 1,30 m do solo, no lado voltado para o interior da parcela. Bom contraste em cascas escuras</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tinta spray vermelha – espécies ameacadas ou protegidas de corte</div><div class="item-detail">Marcação especial para facilitar identificação em campo e em eventual vistoria do órgão ambiental. NAO aplicar em cascas sensiveis — usar plaqueta com arame frouxo nesses casos</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Quantidade de tinta verificada e suficiente para todo o projeto</div><div class="item-detail">Calcular: 1 lata laranja + 1 lata amarela + 1 lata vermelha por dia de campo. Levar 20% a mais de reserva</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Válvulas de todas as latas testadas (pressão, fluxo, cor)</div><div class="item-detail">Testar cada lata em papel antes de entrar na floresta. Substituir latas com válvula com defeito — não há conserto em campo remoto</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Estacas de madeira ou PVC para vértices sem árvore próxima disponível</div><div class="item-detail">Para vértices em capoeira baixa, bordas abertas ou áreas sem cobertura arbórea. Levar martelo para cravação</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita de rafia colorida para delimitar os limites da parcela durante a medicao</div><div class="item-detail">Amarrar nos quatro vértices durante a medição; facilita visualmente o controle de quais indivíduos estão dentro ou fora da parcela</div></div></div>
   </div>
 </div>
 
 <!-- ══ 7. EQUIPE E SEGURANÇA ══════════════════════════════════ -->
 <div class="section collapsed" id="s6">
-  <div class="section-header sh-indigo" ontouchend="sectionTouch(event,'s6')" onclick="toggleSection('s6')">
+  <div class="section-header sh-indigo">
     <div class="s-icon">&#128119;</div>
     <div class="s-tw"><div class="s-title">Equipe, EPIs e Seguranca</div><div class="s-sub">Composicao mínima, protecao individual e emergência</div></div>
     <span class="s-badge" id="badge-s6">0/?</span><span class="chevron">▾</span>
@@ -333,40 +333,40 @@ h1 em{font-style:italic;color:rgba(255,255,255,.7);}
   <div class="section-body">
     <div class="alert-box warn"><strong>Campo na Amazônia – AP e PA:</strong> Malária é endêmica em vários municípios do interior. Verificar se a área está em zona endêmica antes de sair. Consultar mapa epidemiológico do Ministério da Saúde para o município de destino.</div>
 
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Equipe mínima confirmada: RT + 2 auxiliares <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">3 pessoas é o mínimo seguro e operacionalmente eficiente para inventário em floresta densa na Amazônia</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Capacetes com jugular para todos os membros</div><div class="item-detail">Obrigatório em campo com risco de queda de galhos — frequente em florestas com cipós e árvores instáveis</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Luvas de raspa ou nitrílicas + perneiras para todos</div><div class="item-detail">Protecao essencial contra serpentes peconhentas (jararaca, surucucu, coral) – risco real no AP e PA</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Botas de borracha cano alto para todos</div><div class="item-detail">Protecao primária contra ofídios. Verificar estado da sola e do cano — borracha deteriorada não protege</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Calca comprida, camisa manga longa, óculos de protecao</div><div class="item-detail">Protecao contra cipós, espinhos, insetos e respingos de tinta spray durante a marcação dos indivíduos</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Kit de primeiros socorros com soro antiofídico (ou acesso rápido mapeado)</div><div class="item-detail">Saber localização da UBS ou hospital mais próximo. AP: HMGEA (Macapá) e hospitais regionais. PA: hospitais regionais da Sespa por macrorregião</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Coordenacão informada: destino, rota e previsao de retorno</div><div class="item-detail">Registrar por mensagem ou e-mail antes de sair — cria rastro de comunicação e facilita acionamento de emergência em caso de acidente</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Água (mín. 2 L por pessoa) e alimentação para o dia inteiro</div><div class="item-detail">Hidratacão é crítica no calor amazônico. Alimentos de fácil transporte e sem necessidade de refrigeração</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Repelente e protetor solar aplicados antes da saída</div><div class="item-detail">Dengue, malária, leishmaniose e febre amarela são riscos reais no AP e PA. Repelente com DEET maior ou igual a 25%. Protetor solar fator 50 ou mais</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Equipe mínima confirmada: RT + 2 auxiliares <span class="tag tag-ob">obrigatorio</span></div><div class="item-detail">3 pessoas é o mínimo seguro e operacionalmente eficiente para inventário em floresta densa na Amazônia</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Capacetes com jugular para todos os membros</div><div class="item-detail">Obrigatório em campo com risco de queda de galhos — frequente em florestas com cipós e árvores instáveis</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Luvas de raspa ou nitrílicas + perneiras para todos</div><div class="item-detail">Protecao essencial contra serpentes peconhentas (jararaca, surucucu, coral) – risco real no AP e PA</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Botas de borracha cano alto para todos</div><div class="item-detail">Protecao primária contra ofídios. Verificar estado da sola e do cano — borracha deteriorada não protege</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Calca comprida, camisa manga longa, óculos de protecao</div><div class="item-detail">Protecao contra cipós, espinhos, insetos e respingos de tinta spray durante a marcação dos indivíduos</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Kit de primeiros socorros com soro antiofídico (ou acesso rápido mapeado)</div><div class="item-detail">Saber localização da UBS ou hospital mais próximo. AP: HMGEA (Macapá) e hospitais regionais. PA: hospitais regionais da Sespa por macrorregião</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Coordenacão informada: destino, rota e previsao de retorno</div><div class="item-detail">Registrar por mensagem ou e-mail antes de sair — cria rastro de comunicação e facilita acionamento de emergência em caso de acidente</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Água (mín. 2 L por pessoa) e alimentação para o dia inteiro</div><div class="item-detail">Hidratacão é crítica no calor amazônico. Alimentos de fácil transporte e sem necessidade de refrigeração</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Repelente e protetor solar aplicados antes da saída</div><div class="item-detail">Dengue, malária, leishmaniose e febre amarela são riscos reais no AP e PA. Repelente com DEET maior ou igual a 25%. Protetor solar fator 50 ou mais</div></div></div>
   </div>
 </div>
 
 <!-- ══ 8. VERIFICAÇÃO FINAL ═══════════════════════════════════ -->
 <div class="section collapsed" id="s7">
-  <div class="section-header sh-brown" ontouchend="sectionTouch(event,'s7')" onclick="toggleSection('s7')">
+  <div class="section-header sh-brown">
     <div class="s-icon">&#9989;</div>
     <div class="s-tw"><div class="s-title">Verificacao Final – Antes de Sair</div><div class="s-sub">Últimas confirmacoes antes da mobilizacao da equipe</div></div>
     <span class="s-badge" id="badge-s7">0/?</span><span class="chevron">▾</span>
   </div>
   <div class="section-body">
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">GPS externo: bateria acima de 80%, datum SIRGAS 2000, sinal adquirido</div><div class="item-detail">Coletar coordenada de teste e comparar com endereço conhecido. Confirmar datum no menu de configurações do aparelho</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tablet: Timestamp Camera ativo, GPS ligado, formulário offline funcionando, bateria acima de 80%</div><div class="item-detail">Tirar foto de teste e confirmar que as coordenadas aparecem na imagem. Abrir o formulário offline, preencher e salvar um registro de teste. Deletar o registro antes de sair</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita diamétrica verificada – sem dobras, graduação legível</div><div class="item-detail">Uma dobra permanente gera erro sistemático em todos os DAPs. Testar o enrolamento e o travamento antes de sair</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Régua graduada testada e procedimento de altura alinhado com a equipe</div><div class="item-detail">Demonstrar o procedimento para os auxiliares. Definir como agir para árvores acima do alcance da régua. Todos devem usar o mesmo critério</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Todas as latas de tinta spray testadas (válvula, pressão, cor)</div><div class="item-detail">Agitar 2 minutos e testar em papel. Substituir latas com válvula com defeito. Levar pelo menos uma lata reserva de cada cor</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Formulários impressos: quantidade suficiente + reserva de 50%</div><div class="item-detail">Formulário molhado e ilegível em campo remoto não tem substituto. Guardar parte dos formulários em saco plástico vedado</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Briefing da equipe realizado: metodologia e funcoes de cada membro</div><div class="item-detail">Definir claramente: quem mede DAP, quem mede altura com a régua, quem preenche o formulário no tablet, quem opera o GPS, quem faz o registro fotográfico</div></div></div>
-    <div class="item" ontouchend="toggleTouch(event,this)" onclick="toggle(this)"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Acesso à área confirmado: ramal transitável, propriedade autorizada</div><div class="item-detail">Confirmar condições do ramal na véspera — chuva intensa pode tornar acessos intransitáveis no AP e PA em poucas horas</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">GPS externo: bateria acima de 80%, datum SIRGAS 2000, sinal adquirido</div><div class="item-detail">Coletar coordenada de teste e comparar com endereço conhecido. Confirmar datum no menu de configurações do aparelho</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Tablet: Timestamp Camera ativo, GPS ligado, formulário offline funcionando, bateria acima de 80%</div><div class="item-detail">Tirar foto de teste e confirmar que as coordenadas aparecem na imagem. Abrir o formulário offline, preencher e salvar um registro de teste. Deletar o registro antes de sair</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Fita diamétrica verificada – sem dobras, graduação legível</div><div class="item-detail">Uma dobra permanente gera erro sistemático em todos os DAPs. Testar o enrolamento e o travamento antes de sair</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Régua graduada testada e procedimento de altura alinhado com a equipe</div><div class="item-detail">Demonstrar o procedimento para os auxiliares. Definir como agir para árvores acima do alcance da régua. Todos devem usar o mesmo critério</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Todas as latas de tinta spray testadas (válvula, pressão, cor)</div><div class="item-detail">Agitar 2 minutos e testar em papel. Substituir latas com válvula com defeito. Levar pelo menos uma lata reserva de cada cor</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Formulários impressos: quantidade suficiente + reserva de 50%</div><div class="item-detail">Formulário molhado e ilegível em campo remoto não tem substituto. Guardar parte dos formulários em saco plástico vedado</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Briefing da equipe realizado: metodologia e funcoes de cada membro</div><div class="item-detail">Definir claramente: quem mede DAP, quem mede altura com a régua, quem preenche o formulário no tablet, quem opera o GPS, quem faz o registro fotográfico</div></div></div>
+    <div class="item"><div class="checkbox"><span class="checkmark">v</span></div><div class="item-content"><div class="item-text">Acesso à área confirmado: ramal transitável, propriedade autorizada</div><div class="item-detail">Confirmar condições do ramal na véspera — chuva intensa pode tornar acessos intransitáveis no AP e PA em poucas horas</div></div></div>
   </div>
 </div>
 
 <!-- ══ 9. OBSERVAÇÕES ═════════════════════════════════════════ -->
 <div class="section collapsed" id="s8">
-  <div class="section-header sh-green" ontouchend="sectionTouch(event,'s8')" onclick="toggleSection('s8')">
+  <div class="section-header sh-green">
     <div class="s-icon">&#128221;</div>
     <div class="s-tw"><div class="s-title">Observacoes e Pendências</div><div class="s-sub">Alertas específicos para este projeto</div></div>
     <span class="chevron">▾</span>
@@ -412,87 +412,168 @@ const SECTION_NAMES = {
 };
 let estadoAtual = 'ambos';
 
-function setEstado(est) {
-  estadoAtual = est;
-  ['ambos','AP','PA'].forEach(e => document.getElementById('btn-'+e).classList.toggle('active', e===est));
-  document.querySelectorAll('.item[data-estado]').forEach(el => {
-    const de = el.getAttribute('data-estado');
-    el.classList.toggle('visible', est==='ambos' || de===est);
+// ── Delegação de eventos via pointerdown (funciona em touch E mouse) ──
+document.addEventListener('DOMContentLoaded', function() {
+
+  document.addEventListener('pointerdown', function(e) {
+    // Item de checklist
+    const item = e.target.closest('.item');
+    if (item) {
+      e.preventDefault();
+      toggle(item);
+      return;
+    }
+    // Cabeçalho de seção
+    const header = e.target.closest('.section-header');
+    if (header) {
+      e.preventDefault();
+      const sec = header.closest('.section');
+      if (sec) toggleSection(sec.id);
+      return;
+    }
+    // Botões de estado
+    const stateBtn = e.target.closest('.state-btn');
+    if (stateBtn) {
+      e.preventDefault();
+      const id = stateBtn.id.replace('btn-', '');
+      setEstado(id);
+      return;
+    }
   });
-  document.getElementById('footerEstado').textContent = est==='ambos' ? 'AP + PA' : est;
-  updateProgress(); saveState();
+
+  // Prevenir scroll acidental ao tocar em item
+  document.querySelectorAll('.item').forEach(function(el) {
+    el.addEventListener('touchstart', function(e) {
+      // Não previne o default aqui para não bloquear scroll
+    }, { passive: true });
+  });
+
+  setEstado('ambos');
+  loadState();
+});
+
+function toggle(el) {
+  el.classList.toggle('checked');
+  updateProgress();
+  saveState();
 }
 
-function toggle(el) { el.classList.toggle('checked'); updateProgress(); saveState(); }
-function toggleSection(id) { document.getElementById(id).classList.toggle('collapsed'); }
+function toggleSection(id) {
+  var sec = document.getElementById(id);
+  if (sec) sec.classList.toggle('collapsed');
+}
+
+function setEstado(est) {
+  estadoAtual = est;
+  ['ambos','AP','PA'].forEach(function(e) {
+    var btn = document.getElementById('btn-'+e);
+    if (btn) btn.classList.toggle('active', e===est);
+  });
+  document.querySelectorAll('.item[data-estado]').forEach(function(el) {
+    var de = el.getAttribute('data-estado');
+    el.classList.toggle('visible', est==='ambos' || de===est);
+  });
+  var fe = document.getElementById('footerEstado');
+  if (fe) fe.textContent = est==='ambos' ? 'AP + PA' : est;
+  updateProgress();
+  saveState();
+}
 
 function getVisible() {
-  return Array.from(document.querySelectorAll('.item')).filter(el => {
-    const de = el.getAttribute('data-estado');
+  return Array.from(document.querySelectorAll('.item')).filter(function(el) {
+    var de = el.getAttribute('data-estado');
     return !de || estadoAtual==='ambos' || de===estadoAtual;
   });
 }
 
 function updateProgress() {
-  const all  = getVisible();
-  const done = all.filter(el => el.classList.contains('checked'));
-  const pct  = all.length ? Math.round((done.length/all.length)*100) : 0;
-  document.getElementById('progFill').style.width = pct+'%';
-  document.getElementById('progPct').textContent  = pct+'%';
-  document.getElementById('footerCount').textContent = done.length;
-  document.getElementById('footerTotal').textContent  = all.length;
-  SECTIONS.forEach(sid => {
-    const sec = document.getElementById(sid); if (!sec) return;
-    const items = Array.from(sec.querySelectorAll('.item')).filter(el => {
-      const de = el.getAttribute('data-estado');
+  var all  = getVisible();
+  var done = all.filter(function(el) { return el.classList.contains('checked'); });
+  var pct  = all.length ? Math.round((done.length/all.length)*100) : 0;
+  var pf = document.getElementById('progFill');
+  var pp = document.getElementById('progPct');
+  var fc = document.getElementById('footerCount');
+  var ft = document.getElementById('footerTotal');
+  if (pf) pf.style.width = pct+'%';
+  if (pp) pp.textContent = pct+'%';
+  if (fc) fc.textContent = done.length;
+  if (ft) ft.textContent = all.length;
+
+  SECTIONS.forEach(function(sid) {
+    var sec = document.getElementById(sid);
+    if (!sec) return;
+    var items = Array.from(sec.querySelectorAll('.item')).filter(function(el) {
+      var de = el.getAttribute('data-estado');
       return !de || estadoAtual==='ambos' || de===estadoAtual;
     });
-    const chk = items.filter(el => el.classList.contains('checked'));
-    const b = document.getElementById('badge-'+sid);
-    if (b) { b.textContent = chk.length+'/'+items.length; b.classList.toggle('done', items.length>0 && chk.length===items.length); }
+    var chk = items.filter(function(el) { return el.classList.contains('checked'); });
+    var b = document.getElementById('badge-'+sid);
+    if (b) {
+      b.textContent = chk.length+'/'+items.length;
+      b.classList.toggle('done', items.length>0 && chk.length===items.length);
+    }
   });
-  document.getElementById('conclusionBanner').classList.toggle('show', pct===100 && all.length>0);
+
+  var banner = document.getElementById('conclusionBanner');
+  if (banner) banner.classList.toggle('show', pct===100 && all.length>0);
 }
 
 function resetAll() {
   if (!confirm('Limpar todos os itens marcados?')) return;
-  document.querySelectorAll('.item.checked').forEach(el => el.classList.remove('checked'));
-  updateProgress(); localStorage.removeItem('chklist_if_v3');
+  document.querySelectorAll('.item.checked').forEach(function(el) {
+    el.classList.remove('checked');
+  });
+  updateProgress();
+  localStorage.removeItem('chklist_if_v3');
 }
 
 function saveState() {
-  const checks = Array.from(document.querySelectorAll('.item')).map(el => el.classList.contains('checked'));
-  localStorage.setItem('chklist_if_v3', JSON.stringify({checks, estado:estadoAtual}));
+  var checks = Array.from(document.querySelectorAll('.item')).map(function(el) {
+    return el.classList.contains('checked');
+  });
+  localStorage.setItem('chklist_if_v3', JSON.stringify({checks: checks, estado: estadoAtual}));
 }
 
 function loadState() {
-  const raw = localStorage.getItem('chklist_if_v3'); if (!raw) return;
+  var raw = localStorage.getItem('chklist_if_v3');
+  if (!raw) return;
   try {
-    const {checks, estado} = JSON.parse(raw);
-    if (estado) setEstado(estado);
-    document.querySelectorAll('.item').forEach((el,i) => { if (checks[i]) el.classList.add('checked'); });
-  } catch(e){}
+    var data = JSON.parse(raw);
+    if (data.estado) setEstado(data.estado);
+    var items = document.querySelectorAll('.item');
+    items.forEach(function(el, i) {
+      if (data.checks && data.checks[i]) el.classList.add('checked');
+    });
+  } catch(e) {}
   updateProgress();
 }
 
 function exportTxt() {
-  let out = 'CHECKLIST PRE-CAMPO – INVENTARIO FLORESTAL RDR\n';
+  var out = 'CHECKLIST PRE-CAMPO – INVENTARIO FLORESTAL RDR\n';
   out += 'Estado: '+(estadoAtual==='ambos'?'AP + PA':estadoAtual)+'\n';
   out += 'Gerado em: '+new Date().toLocaleString('pt-BR')+'\n';
   out += '='.repeat(58)+'\n\n';
-  SECTIONS.forEach(sid => {
-    const sec = document.getElementById(sid); if (!sec) return;
-    const items = Array.from(sec.querySelectorAll('.item')).filter(el => {
-      const de = el.getAttribute('data-estado');
+  SECTIONS.forEach(function(sid) {
+    var sec = document.getElementById(sid);
+    if (!sec) return;
+    var items = Array.from(sec.querySelectorAll('.item')).filter(function(el) {
+      var de = el.getAttribute('data-estado');
       return !de || estadoAtual==='ambos' || de===estadoAtual;
     });
-    const chk = items.filter(el => el.classList.contains('checked'));
-    out += '[ '+SECTION_NAMES[sid]+' ] – '+chk.length+'/'+items.length+'\n';
-    items.forEach(el => {
-      const txt = el.querySelector('.item-text').innerText.replace(/\n/g,' ').replace(/\s+/g,' ').trim();
-      out += '  '+(el.classList.contains('checked')?'[X]':'[ }')+' '+txt+'\n';
+    var chk = items.filter(function(el) { return el.classList.contains('checked'); });
+    out += '[ '+(SECTION_NAMES[sid]||sid)+' ] – '+chk.length+'/'+items.length+'\n';
+    items.forEach(function(el) {
+      var txt = el.querySelector('.item-text');
+      var t = txt ? txt.innerText.replace(/\n/g,' ').replace(/\s+/g,' ').trim() : '';
+      out += '  '+(el.classList.contains('checked')?'[X]':'[ ]')+' '+t+'\n';
     });
     out += '\n';
   });
-  const a = document.createElement('a');
-  a.
+  var a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([out],{type:'text/plain;charset=utf-8'}));
+  a.download = 'Checklist_PreCampo_IF_'+new Date().toISOString().slice(0,10)+'.txt';
+  a.click();
+}
+</script>
+</body>
+</html>
